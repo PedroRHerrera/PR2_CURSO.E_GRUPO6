@@ -1,0 +1,65 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>96</x><y>328</y><w>120</w><h>64</h></coordinates><panel_attributes>Complejo
+-
+-
++ mostrarCines(): void
++ generarTicket(): Ticket
++ entregarTicket(): Ticket</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>328</y><w>128</w><h>72</h></coordinates><panel_attributes>Cine
+-
+
+-
++ mostrarFunciones(): void </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>312</x><y>464</y><w>168</w><h>104</h></coordinates><panel_attributes>Sala
+-
+-capacidadSala : int
+-
++ salaLlena(): boolean
++ mostrarAsientosLibres(): void
++ mostrarMensajeSalaLlena(): void
++ reservarAsiento(): void
++getCapacidadSala() : int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>584</x><y>576</y><w>144</w><h>104</h></coordinates><panel_attributes>Cliente
+-
+
+-
+- comprarEntrada(): void
+- tieneTicket(): boolean
+- seleccionarCine(): String
+- seleccionarFuncion(): String
+- seleccionarAsiento(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>304</x><y>632</y><w>168</w><h>80</h></coordinates><panel_attributes>Asientos
+-
+- String: letraYNumero
+- boolean: ocupado 
+-
++ cambiarEstadoOcupado(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>536</x><y>312</y><w>144</w><h>88</h></coordinates><panel_attributes>Funcion
+-
+- dia: String
+- horario: String
+- int: id
+- entradasVendidas : int
+-
++ verificarSalaLlena(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>104</x><y>648</y><w>136</w><h>48</h></coordinates><panel_attributes>AsientoNiño
+-
+-tieneAlmohadon: boolean
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>376</x><y>392</y><w>48</w><h>88</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+- salas
+m1=1..*</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>384</x><y>560</y><w>64</w><h>88</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+- asientos
+m1=0..*</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>208</x><y>344</y><w>128</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+- cines
+m1=1..*</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>344</y><w>112</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+- funciones
+m1=1..*</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>472</x><y>392</y><w>136</w><h>112</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+- salas
+m1=1..*</panel_attributes><additional_attributes>120;10;120;120;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>456</y><w>120</w><h>48</h></coordinates><panel_attributes>Ticket
+-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>624</x><y>392</y><w>64</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+- funcion
+m1=1</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>496</y><w>56</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+- ticket
+m1=1</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>152</x><y>288</y><w>584</w><h>184</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>710;210;710;10;10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>232</x><y>664</y><w>88</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>768</x><y>312</y><w>144</w><h>80</h></coordinates><panel_attributes>Pelicula
+-
+- nombre: String
+- duraciónEnMinutos : double
+- genero : String
+- fechaEstreno : String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>672</x><y>344</y><w>112</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+- pelicula
+m1=1</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>512</y><w>168</w><h>152</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;170;10;10;190;10</additional_attributes></element></diagram>
