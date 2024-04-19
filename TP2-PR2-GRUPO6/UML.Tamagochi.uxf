@@ -1,0 +1,48 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>140</x><y>90</y><w>210</w><h>150</h></coordinates><panel_attributes>Tamagochi
+-
+
+-
++ darDeComer() : void
++ darDeTomar() : void
++ hacerleMimos() : void
++ pegarle() : void
++ cambiarEstado(Estado): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>90</y><w>210</w><h>190</h></coordinates><panel_attributes>/Estado/
+-
+
+-
+/+ Estado(Tamagochi)/
+/+ darDeComer() : void/
+/+ darDeTomar() : void/
+/+ hacerleMimos() : void/
+/+ pegarle() : void/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>390</y><w>180</w><h>130</h></coordinates><panel_attributes>Feliz
+-
++ Estado(Tamagochi)
+-
++ darDeComer() : void
++ darDeTomar() : void
++ hacerleMimos() : void
++ pegarle() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>390</y><w>210</w><h>130</h></coordinates><panel_attributes>Triste
+-
++ Estado(Tamagochi)
+-
++ darDeComer() : void
++ darDeTomar() : void
++ hacerleMimos() : void
++ pegarle() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>390</y><w>210</w><h>130</h></coordinates><panel_attributes>Hambriento
+-
++ Estado(Tamagochi)
+-
++ darDeComer() : void
++ darDeTomar() : void
++ hacerleMimos() : void
++ pegarle() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>390</y><w>210</w><h>130</h></coordinates><panel_attributes>Sediento
+-
++ Estado(Tamagochi)
+-
++ darDeComer() : void
++ darDeTomar() : void
++ hacerleMimos() : void
++ pegarle() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>150</y><w>210</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;190;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>150</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>160;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>270</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>270</y><w>210</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>190;10;190;60;10;60;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>270</y><w>430</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>410;10;410;60;10;60;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>270</y><w>300</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;60;280;60;280;120</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>170</y><w>210</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+- tamagochi
+m1=1</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>150</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element></diagram>
