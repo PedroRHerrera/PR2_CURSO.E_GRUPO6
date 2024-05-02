@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>50</y><w>210</w><h>130</h></coordinates><panel_attributes>Empleado
+--
+- nombre: String
+- sueldoBrutoAnual: float
+- categoria: Categoria
+--
++ Empleado(String, float, Categoria)
++ calcularMonto(float): float
+- setCategoria(Categoria): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>70</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+/Categoria/
+--
+-
+/+ calcularMonto(float): float/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>100</y><w>280</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;260;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>340</y><w>210</w><h>100</h></coordinates><panel_attributes>CategoriaA
+--
+- diaIngreso : int
+--
++ calcularMonto(float): float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>340</y><w>210</w><h>100</h></coordinates><panel_attributes>CategoriaC
+--
+_- BONO_CATEGORIA: int = 500_
+--
++ calcularMonto(float): float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>340</y><w>210</w><h>100</h></coordinates><panel_attributes>CategoriaB
+--
+- cantidadHijos : int
+- nombre: String
+--
++ calcularMonto(float): float
+- empiezaConVocal(): boolean
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>160</y><w>30</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>160</y><w>330</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>310;10;310;100;10;100;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>160</y><w>320</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;100;300;100;300;180</additional_attributes></element><element><id>UMLNote</id><coordinates><x>10</x><y>30</y><w>70</w><h>20</h></coordinates><panel_attributes>Context</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>470</x><y>50</y><w>70</w><h>20</h></coordinates><panel_attributes>Strategy</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>100</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element></diagram>
