@@ -1,0 +1,47 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>360</x><y>140</y><w>140</w><h>40</h></coordinates><panel_attributes>
+_*:Gato*_
+
+bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>560</x><y>140</y><w>140</w><h>40</h></coordinates><panel_attributes>
+_*:Hambriento*_
+
+bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>60</y><w>680</w><h>30</h></coordinates><panel_attributes>_*Diagrama de Secuencia: Doctor le da de comer a un Gato Hambriento y el Gato cambia su Estado a Feliz*_
+
+bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>50</x><y>80</y><w>950</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>30</y><w>170</w><h>30</h></coordinates><panel_attributes>_*STATE*_
+
+bg=yellow
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>20</y><w>190</w><h>30</h></coordinates><panel_attributes>*SECUENCIA - TP FINAL - PR2*
+bg=black
+fg=white
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>180</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>220</x><y>250</y><w>20</w><h>330</h></coordinates><panel_attributes>bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>170</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>420</x><y>250</y><w>20</w><h>330</h></coordinates><panel_attributes>bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>170</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>620</x><y>290</y><w>20</w><h>190</h></coordinates><panel_attributes>bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>250</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+darDeComer()</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>390</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+new</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>570</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>160</x><y>140</y><w>140</w><h>40</h></coordinates><panel_attributes>
+_*:Doctor*_
+
+bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>280</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+darDeComer()</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>750</x><y>140</y><w>140</w><h>40</h></coordinates><panel_attributes>
+_*:Feliz*_
+
+bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>170</y><w>30</w><h>240</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>810</x><y>390</y><w>20</w><h>50</h></coordinates><panel_attributes>bg=yellow
+
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>430</y><w>30</w><h>240</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>430</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+cambiarEstado(Feliz)</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>500</y><w>170</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+ cambiarEstado(Feliz)</panel_attributes><additional_attributes>10;50;30;50;30;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>320</y><w>130</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+ darDeComer()</panel_attributes><additional_attributes>10;50;30;50;30;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>570</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>610</x><y>500</y><w>40</w><h>30</h></coordinates><panel_attributes>type=termination
+lw=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>470</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element></diagram>
