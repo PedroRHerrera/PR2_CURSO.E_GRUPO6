@@ -1,0 +1,18 @@
+CORRECCIONES TP-FINAL-PR2
+
+UML
+	- Aplicamos Singleton para las Estrategias de los Veterinarios y para la Veterinaria en sí.
+	- Cambiamos el Adapter por el Factory para la creación de Collares para las Mascotas.
+	- Suprimimos el método 'addItem()' de Veterinaria.
+	- Agregamos un array de tratamientos[] en Mascota.
+
+Secuencias
+
+	- STATE: Se añade destrucción del Estado Hambriento.
+
+Grupo 6
+
+- Martin Zielony: martozielony@gmail.com
+- Pablo Federico Toloza: pablofedericotoloza@gmail.com
+- Tobías Grime Kahan: tobias.gk.18@gmail.com
+- Herrera Pedro Ricardo: pedroherreravdp@gmail.com
